@@ -9,7 +9,7 @@ An orbit-style clock for Obsidian built using DataviewJS and SVG. Inspired by or
 ## Usage
 
 Create a note and paste the following:
-
+```dataviewjs
 ```dataviewjs
 /*******************************************************
 Orbit Clock — Obsidian DataviewJS SVG
@@ -435,4 +435,5 @@ if (cfg.animation === "raf" || cfg.animation === "step") {
 }
 
 instances.set(host, { stop });
+```
 ```
